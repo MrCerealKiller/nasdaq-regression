@@ -1,0 +1,28 @@
+## Marked
+*~
+
+## Git Root
+.git
+
+## Compiled Output
+*.pyc
+
+## Saved states / .pckl Files
+*.pckl
+*.h5py
+
+## IDEs and Editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+## IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
