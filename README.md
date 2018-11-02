@@ -34,12 +34,14 @@ function of the last k days worth of data.
 
 Thus the datastructure is:
 
+```
 Y_n = f([close_(n-1), volume_(n-1), open_(n-1), high_(n-1), low_(n-1)],
         [close_(n-2), volume_(n-2), open_(n-2), high_(n-2), low_(n-2)],
         [close_(n-3), volume_(n-3), open_(n-3), high_(n-3), low_(n-3)],
         [close_(n-4), volume_(n-4), open_(n-4), high_(n-4), low_(n-4)],
         ...
         [close_(n-k), volume_(n-k), open_(n-k), high_(n-k), low_(n-k)])
+```
 
 ## Dependencies
 - Tensorflow
